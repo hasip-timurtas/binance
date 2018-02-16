@@ -1,0 +1,94 @@
+{
+  "name": "yobitt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cryptopia.js": "^1.0.0",
+    "find-up": "^2.1.0",
+    "hapi": "^17.2.0",
+    "locate-path": "^2.0.0",
+    "mysql": "^2.15.0",
+    "p-locate": "^2.0.0",
+    "pkg-dir": "^2.0.0",
+    "pmx": "^1.5.5"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "classes": true,
+        "jsx": true
+      }
+    },
+    "extends": [],
+    "globals": {
+      "server": false,
+      "browser": false
+    },
+    "rules": {
+      "import/no-extraneous-dependencies": 0,
+      "import/imports-first": 0,
+      "import/no-unresolved": 0,
+      "no-nested-ternary": 0,
+      "semi": [
+        2,
+        "never"
+      ],
+      "semi-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "comma-dangle": [
+        2,
+        "never"
+      ],
+      "comma-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "comma-style": [
+        2,
+        "last"
+      ],
+      "quotes": [
+        2,
+        "single",
+        {
+          "avoidEscape": true,
+          "allowTemplateLiterals": true
+        }
+      ],
+      "max-len": [
+        2,
+        300,
+        2,
+        {
+          "ignoreComments": true
+        }
+      ],
+      "space-before-function-paren": [
+        2,
+        "always"
+      ]
+    }
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-module-utils": "^2.1.1",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
