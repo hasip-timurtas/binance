@@ -1,1 +1,1 @@
-# crypropia
+# Binance
